@@ -44,8 +44,6 @@ class Manager(Employee):
 		for emp in self.employees:
 			print(emp.fullname())
 
-
-
 dev_1 = Developer('Pranjal','RMCF',140000,'Python')
 dev_2 = Developer('James','Dean',115000,'Java')
 dev_3 = Developer('Michael','Jackson',90000,'Ruby')
